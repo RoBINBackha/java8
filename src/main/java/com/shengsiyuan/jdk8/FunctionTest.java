@@ -13,4 +13,6 @@ public class FunctionTest {
     private int test(int a, Function<Integer,Integer> function) {
         return function.apply(a);
     }
+
+    //高阶函数：如果一个函数接收一个函数作为参数，或者返回一个函数作为返回值，那么该函数就叫做高阶函数
 }
