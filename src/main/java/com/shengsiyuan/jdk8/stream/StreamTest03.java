@@ -11,6 +11,6 @@ public class StreamTest03 {
         List<Integer> list = Arrays.asList(1, 2, 3, 4, 5, 6);
         System.out.println(list.stream().map(x -> x * 2).reduce(0,Integer::sum));
 
-//        System.out.println(IntStream.range(3,8).map(x -> x*2).sum());
+        System.out.println(IntStream.range(3,8).map(x -> x*2).sum());
     }
 }
