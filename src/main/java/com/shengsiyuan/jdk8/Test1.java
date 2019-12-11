@@ -48,6 +48,7 @@ class Test02 {
         System.out.println(myInterface02.getClass());
         System.out.println(myInterface02.getClass().getSuperclass());
         System.out.println(myInterface02.getClass().getInterfaces()[0]);
+        myInterface02.itest();
     }
 
     private void test02(MyInterface02 m) {
